@@ -36,24 +36,24 @@
 /*  36 */     generateNewExcelFile(colDefMap);
 /*     */   }
 /*     */   
-/*     */   private void copyFromExampleFile()
-/*     */   {
-/*     */     try
-/*     */     {
-/*  43 */       String exampleFileName = "Example.xls";
-/*     */       
-/*  45 */       Workbook wb = Workbook.getWorkbook(new File(exampleFileName));
-/*     */       
-/*  47 */       WritableWorkbook book = Workbook.createWorkbook(new File(
-/*  48 */         this.filename_excel), wb);
-/*     */       
-/*  50 */       WritableSheet sheet = book.getSheet(0);
-/*  51 */       book.write();
-/*  52 */       book.close();
-/*     */     } catch (Exception e) {
-/*  54 */       e.printStackTrace();
-/*     */     }
-/*     */   }
+///*     */   private void copyFromExampleFile()
+///*     */   {
+///*     */     try
+///*     */     {
+///*  43 */       String exampleFileName = "Example.xls";
+///*     */       
+///*  45 */       Workbook wb = Workbook.getWorkbook(new File(exampleFileName));
+///*     */       
+///*  47 */       WritableWorkbook book = Workbook.createWorkbook(new File(
+///*  48 */         this.filename_excel), wb);
+///*     */       
+///*  50 */       WritableSheet sheet = book.getSheet(0);
+///*  51 */       book.write();
+///*  52 */       book.close();
+///*     */     } catch (Exception e) {
+///*  54 */       e.printStackTrace();
+///*     */     }
+///*     */   }
 /*     */   
 /*     */   private void generateNewExcelFile(Map colDefMap)
 /*     */   {
