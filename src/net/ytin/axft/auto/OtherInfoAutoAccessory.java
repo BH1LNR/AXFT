@@ -89,17 +89,23 @@
 /*  89 */           sheet.addCell(new Label(getColNo("sale_end_date", coldef), 
 /*  90 */             index, endDate));
 /*     */           
-/*  92 */           sheet.addCell(new Label(getColNo("rebate_name1", coldef), 
-/*  93 */             index, (String)otherInfo.get("rebate_name1")));
+/*  92 */           sheet.addCell(new Label(getColNo("rebate_name", coldef), 
+/*  93 */             index, (String)otherInfo.get("rebate_name")));
 /*     */           
-/*  95 */           sheet.addCell(new Label(getColNo("rebate_description1", 
+/*  95 */           sheet.addCell(new Label(getColNo("rebate_description", 
 /*  96 */             coldef), index, 
-/*  97 */             (String)otherInfo.get("rebate_description1")));
+/*  97 */             (String)otherInfo.get("rebate_description")));
 /*     */           
 /*  99 */           sheet.addCell(new Label(
-/* 100 */             getColNo("rebate_start_at1", coldef), index, today));
+/* 100 */             getColNo("rebate_start_at", coldef), index, today));
 /*     */           
-/* 102 */           sheet.addCell(new Label(getColNo("rebate_end_at1", coldef), 
+/* 102 */           sheet.addCell(new Label(getColNo("rebate_end_at", coldef), 
+/* 103 */             index, endDate));
+
+/*  99 */           sheet.addCell(new Label(
+/* 100 */             getColNo("offering_start_date", coldef), index, today));
+/*     */           
+/* 102 */           sheet.addCell(new Label(getColNo("offering_end_date", coldef), 
 /* 103 */             index, endDate));
 /*     */           
 /* 105 */           sheet.addCell(new Number(
@@ -121,25 +127,15 @@
 /* 121 */             coldef), index, Double.valueOf(
 /* 122 */             (String)otherInfo.get("fulfillment_latency")).doubleValue()));
 /*     */           
-/* 124 */           sheet.addCell(new Number(getColNo(
-/* 125 */             "website_shipping_weight", coldef), index, 
-/* 126 */             Double.valueOf(
-/* 127 */             (String)otherInfo.get("website_shipping_weight")).doubleValue()));
+
 /*     */           
-/* 129 */           sheet.addCell(new Label(
-/* 130 */             getColNo("website_shipping_weight_unit_of_measure", 
-/* 131 */             coldef), 
-/* 132 */             index, 
-/*     */             
-/* 134 */             (String)otherInfo.get("website_shipping_weight_unit_of_measure")));
-/*     */           
-/* 136 */           sheet.addCell(new Number(getColNo("item_weight", coldef), 
+/* 136 */           sheet.addCell(new Number(getColNo("package_weight", coldef), 
 /* 137 */             index, Double.valueOf(
-/* 138 */             (String)otherInfo.get("item_weight")).doubleValue()));
+/* 138 */             (String)otherInfo.get("package_weight")).doubleValue()));
 /* 139 */           sheet.addCell(new Label(getColNo(
-/* 140 */             "item_weight_unit_of_measure", coldef), index, 
+/* 140 */             "package_weight_unit_of_measure", coldef), index, 
 /*     */             
-/* 142 */             (String)otherInfo.get("item_weight_unit_of_measure")));
+/* 142 */             (String)otherInfo.get("package_weight_unit_of_measure")));
 /*     */         }
 /*     */       }
 /*     */       

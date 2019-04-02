@@ -180,17 +180,10 @@
 /* 180 */         goodParent.setNode(node);
 /*     */         
 /* 182 */         goodParent
-/* 183 */           .setKeyword1(getKeyword(carTypeList, keywordListTemp));
-/* 184 */         goodParent
-/* 185 */           .setKeyword2(getKeyword(carTypeList, keywordListTemp));
-/* 186 */         goodParent
-/* 187 */           .setKeyword3(getKeyword(carTypeList, keywordListTemp));
-/* 188 */         goodParent
-/* 189 */           .setKeyword4(getKeyword(carTypeList, keywordListTemp));
-/* 190 */         goodParent
-/* 191 */           .setKeyword5(getKeyword(carTypeList, keywordListTemp));
+/* 183 */           .setKeyword(getKeyword(carTypeList, keywordListTemp));
+
 /*     */         
-/* 193 */         goodParent.setKeyCompatible_with_vehicle_types(compatible_with_vehicle_types);
+
 /*     */         
 /* 195 */         this.list.add(goodParent);
 /* 196 */         if (IsOption) {
@@ -250,18 +243,11 @@
 /* 250 */                 good.setColor_map(colorObj.getColor_map());
 /*     */               }
 /* 252 */               good.setVariation_theme(variation_theme);
-/* 253 */               good.setKeyword1(getKeyword(carTypeList, 
+/* 253 */               good.setKeyword(getKeyword(carTypeList, 
 /* 254 */                 keywordListTemp));
-/* 255 */               good.setKeyword2(getKeyword(carTypeList, 
-/* 256 */                 keywordListTemp));
-/* 257 */               good.setKeyword3(getKeyword(carTypeList, 
-/* 258 */                 keywordListTemp));
-/* 259 */               good.setKeyword4(getKeyword(carTypeList, 
-/* 260 */                 keywordListTemp));
-/* 261 */               good.setKeyword5(getKeyword(carTypeList, 
-/* 262 */                 keywordListTemp));
+
 /*     */               
-/* 264 */               good.setKeyCompatible_with_vehicle_types(compatible_with_vehicle_types);
+
 /* 265 */               this.list.add(good);
 /*     */             }
 /*     */             
