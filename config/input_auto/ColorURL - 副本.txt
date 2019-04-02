@@ -1,0 +1,18 @@
+﻿^^黄金米 beige 米黄
+@main@
+@color@
+@color@
+^^尊贵黑 black 黑 
+@main@
+@color@
+@color@
+^^摩卡棕 coffee 棕 
+@main@
+@color@
+@color@
+^^香槟金 gold 金 
+@main@
+@color@
+@color@
+
+@other@

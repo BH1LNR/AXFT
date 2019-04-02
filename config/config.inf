@@ -1,0 +1,9 @@
+brand.file=Brand.txt
+car.type.file=CarType.txt
+desc.file=Desc.txt
+color.file=ColorURL.txt
+attribute.file=Attribute.txt
+keywords.file=Keyword.txt
+node.file=Node.txt
+namekeys.file=NameKeyword.txt
+size.file=Size.txt
